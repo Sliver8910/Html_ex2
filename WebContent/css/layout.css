@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+
+/********************Header**********************************/
+.header_wrap {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	
+	
+	
+	
+}
+.global_banner{
+	background: black;
+	text-align: center;
+	min-height: 30px;
+	height: auto;
+	display: block;
+
+	
+}
+.global_promo{
+	display: ;
+	color: lightgray;
+	font-size: 0.9em;
+	padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 294px;
+    padding-right: 304px;
+}
+
+.global_utilty {
+	display: block;
+	position: absolute;
+	right: 0;
+	
+}
+.selector_wrap {
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+.selector_contry{
+	background: black;
+	border-style: none;
+	padding: 3px;
+	color: white;
+	font-size: 0.9em;
+	
+}
+.global_member{
+	display: inline-block;
+}
+.global_ul {
+	float: right;
+	display: inline-block;
+	color: lightgray;
+	font-size: 0.9em;
+	
+}
+
+.global_ul > li {
+	padding-top: 6px;
+	float: left;
+	margin-right: 4px;
+}
+.global_ul a{
+	color: lightgray;
+}
+
+.global_header {
+	position: relative;
+	background: white;
+	border-bottom: 1px solid gray;
+	height: 60px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+.main_logo {
+	float : left;
+	padding-left: 10px;
+	padding-top: 9.5px;
+	
+}
+
+.main_menu{
+	float : left;
+	text-align: center;
+	
+	
+	
+}
+.main_ul {
+	padding-left: 600px;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+.main_ul a:hover{
+	color : red;
+}
+
+.main_ul > li{
+	float: left;
+	margin-left: 30px;
+	line-height: 60px;
+	
+}
+.submenu {
+	padding-top : 14px; 
+	
+}
+
+.shopcart{
+	float: right;
+	margin-right: 60px;
+}
+
+.search {
+	float: right;
+	height: 30px;
+	line-height:30px;
+	padding: 0 60px 0 8px;
+	font-size: 13px;
+
+}
+.search button{
+	padding: 5px;
+	background: white;
+	border-style: solid;
+	border-color: lightgray;
+	
+}
+.search_in {
+	border-color: lightgray;
+	padding: 5px;
+	border-style: solid;
+	
+}
+
+
+/**********************Main**********************************/
+.main{
+	border-bottom: 3px solid black;
+	
+}
+.section_wrap {
+	clear: both;
+	width: 85%;
+	min-height: 900px;
+	margin: 0 auto;
+	margin-top: 82px;
+	
+}
+.main_text{
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	width: 96%;
+	font-size: 40px;
+	font-weight: 400;
+	margin: 0 2%;
+	height: 150px;
+	line-height: 150px;
+}
+.main_text > h1{
+	
+	
+	
+}
+
+
+
+/************************Footer*********************************/
+.outfooter{
+	background-color: #f0f0f0;
+}
+.footer{
+	clear: both;
+	min-height:200px;
+	width: 70%;
+	
+	color: black;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.footer_email{
+	display: inline-block;
+	width: 50%;
+	
+	
+}
+
+.email_input button{
+	min-width: 160px;
+	background-color: red;
+	color: white;
+	padding: 0;
+	font-size: 14px;
+	vertical-align: middle;
+	line-height: 1em;
+	border-style: none; 
+	
+}
