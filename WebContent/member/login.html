@@ -10,6 +10,28 @@
 
 <link href="/Html_ex2/css/member.css" rel="stylesheet">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script type="text/javascript">
+	function check() {
+		var id1 = document.getElementById("id1").value;
+		var pw1 = document.getElementById("pw1").value
+		if(id1 != '' && pw1 != ''){
+			alert("입력완료")
+		}else{
+			alert("입력하세요")
+		}
+	}
+	
+	function check2() {
+		var id1 = document.getElementById("id1").value;
+		var pw1 = document.getElementById("pw1").value
+		if(id1 != '' && pw1 != ''){
+			alert("입력완료")
+		}else{
+			alert("입력하세요")
+		}
+	}
+
+</script>
 </head>
 <body>
 <header>
@@ -80,21 +102,23 @@
 			<div class="login_secter">
 				<div class="login_box">
 					<h2><strong>회원 로그인</strong></h2>
-					<form action="">
+					<form action="../index.html">
 						<div class="login_form">
 							<div class="id_input">
 								<span><strong>이메일 주소</strong></span><br>
-								<input class="input_anyting" type="text">
+								<input  id="id1" class="input_anyting" type="text">
 							</div>
 							<div class="pw_input">
 								<span><strong>암호</strong></span><br>
-								<input class="input_anyting" type="text">
+								<input id = "pw1" class="input_anyting" type="text">
 							</div>
 							<div class="check_id">
 								<input type="checkbox"> 아이디 기억하기
 							</div>
 							<div class="button1">
-							<button>로그인</button>
+							<p><button onclick="check2()">로그인</button></p>
+							<p><input type="submit"></p>
+							<p><input onclick="check()" id ="b3" type="button" value="Login"></p>
 							</div>
 						</div>
 					</form>
