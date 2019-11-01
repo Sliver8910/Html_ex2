@@ -5,6 +5,7 @@
 
 /********************Header**********************************/
 .header_wrap {
+	z-index: 100;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -180,6 +181,7 @@
 
 /************************Footer*********************************/
 .outfooter{
+	z-index : 100;
 	clear: both;
 	border-top: 3px solid black;
 	background-color: #f0f0f0;
